@@ -16,35 +16,35 @@ export default function Home() {
             </Link>
           </div>
         </section>
-        <div className=" md:mx-[100px] xl:mx-[150px] bg-current">
+        <div className=" md:mx-[100px] bg-blue-900 xl:mx-[150px] bg-current">
           <section className="bg-blue-950 p-8 text-center ">
             <h2 className="text-5xl font-semibold text-white mb-4">Why Choose <br />Artic Fox Consulting?</h2>
             <p className="text-2xl text-gray-400 xl:px-[250px] text-center">At Artic Fox Consulting, we are committed to delivering exceptional results and driving positive change for our clients. With our expertise, experience, and collaborative approach, we’ll help you transform your business architecture and unlock new opportunities for growth and success.</p>
           </section>
-          <section className="p-8 mb-10 bg-stone-300">
+          <section className="p-8 mb-10 bg-bottom bg-[url('https://fast.image.delivery/swckajc.jpg')]">
             <h2 className="text-3xl font-semibold mb-8 text-center"></h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="border rounded-lg shadow-lg p-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+              <div className="border bg-cover bg-center rounded-lg shadow-lg p-4 bg-[url('https://fast.image.delivery/swckajc.jpg')]">
                 <img src="https://s2.wp.com/wp-content/themes/premium/startace/assets/images/icon_styles.png" alt="Product 1" className="h-24 w-24 rounded mb-4 mx-auto" />
                 <h3 className="text-xl text-gray-700 text-center font-bold mb-2">Results-Driven</h3>
                 <p className="text-gray-700 text-center">Our goal is to deliver measurable results that drive business success and long-term value for our clients.</p>
               </div>
-              <div className="border rounded-lg shadow-lg p-4">
+              <div className="border bg-cover bg-center rounded-lg shadow-lg p-4 bg-[url('https://fast.image.delivery/swckajc.jpg')]">
                 <img src="https://s2.wp.com/wp-content/themes/premium/startace/assets/images/icon_templates.png" alt="Product 2" className="rounded mb-4 h-24 mx-auto w-24" />
                 <h3 className="text-xl text-gray-700 text-center font-bold mb-2">Collaborative Approach</h3>
                 <p className="text-gray-700 text-center">We believe in working closely with our clients as partners, leveraging their expertise and insights to drive meaningful change.</p>
               </div>
-              <div className="border rounded-lg shadow-lg p-4">
+              <div className="border bg-cover bg-center rounded-lg shadow-lg p-4 bg-[url('https://fast.image.delivery/swckajc.jpg')]">
                 <img src="https://s2.wp.com/wp-content/themes/premium/startace/assets/images/icon_patterns.png" alt="Product 3" className="rounded mb-4 h-24 mx-auto w-24" />
                 <h3 className="text-xl text-gray-700 font-bold text-center mb-2">Tailored Solutions</h3>
                 <p className="text-gray-700 text-center">We take a customized approach to each client engagement, ensuring that our solutions align with your unique needs and objectives.</p>
               </div>
             </div>
           </section>
-          <div className="bg-cover bg-center md:h-96 md:flex justify-between text-black">
+          <div className="bg-cover  bg-[url('https://fast.image.delivery/swckajc.jpg')] bg-center md:h-96 md:flex justify-between text-black">
             <section  >
               <div className="md:ml-10 md:mt-10 sm:ml-5 sm:mt-5">
-                <h3 className="text-xl text-sky-400 font-semibold mb-2">OUR SERVICES</h3>
+                <h3 className="text-xl text-sky-800 font-semibold mb-2">OUR SERVICES</h3>
                 <h1 className="sm:text-2xl xl:text-4xl font-bold mb-4">Business Architecture Design</h1>
                 <p className="xl:text-xl sm:text-sm">Our business architecture design services are tailored to help you build a solid foundation for growth and innovation. From defining your business capabilities to mapping out your processes and systems, well work closely with you to design a robust and scalable architecture that aligns with your strategic goals.</p>
               </div>
@@ -53,7 +53,7 @@ export default function Home() {
               <img className="md:h-[300px] md:mx-auto md:w-[2500px] sm:h-[200px] sm:mx-auto sm:w-[1250px]" src='https://deltadynamicsconsulting.com/wp-content/uploads/2024/05/delta3.jpg?w=1024&h=683' />
             </section>
           </div>
-          <div className="bg-cover bg-center md:h-96 md:flex justify-between text-black">
+          <div className="bg-cover bg-[url('https://fast.image.delivery/swckajc.jpg')] bg-center md:h-96 md:flex justify-between text-black">
             <section className="md:p-8 md:my-5 my-2 text-center">
               <img className="md:h-[300px] md:mx-auto md:w-[2500px] sm:h-[200px] sm:mx-auto sm:w-[1250px]" src='https://deltadynamicsconsulting.com/wp-content/uploads/2024/05/delta1.jpg?w=1024&h=768' />
             </section>
@@ -64,7 +64,7 @@ export default function Home() {
               </div>
             </section>
           </div>
-          <div className="bg-cover bg-center md:h-96 md:flex justify-between text-black">
+          <div className="bg-cover  bg-[url('https://fast.image.delivery/swckajc.jpg')] bg-center md:h-96 md:flex justify-between text-black">
             <section  >
               <div className="md:ml-10 md:mt-10 sm:ml-5 sm:mt-5">
                 <h1 className="sm:text-2xl xl:text-4xl font-bold mb-4">Business Process Architecture</h1>
@@ -75,7 +75,7 @@ export default function Home() {
               <img className="md:h-[300px] md:mx-auto md:w-[2500px] sm:h-[200px] sm:mx-auto sm:w-[1250px]" src='https://deltadynamicsconsulting.com/wp-content/uploads/2024/05/delta4.jpg?w=1024&h=683' />
             </section>
           </div>
-          <div className="bg-cover bg-center md:h-96 md:flex justify-between text-black">
+          <div className="bg-cover  bg-[url('https://fast.image.delivery/swckajc.jpg')] bg-center md:h-96 md:flex justify-between text-black">
             <section className="md:p-8 md:my-5 my-2 text-center">
               <img className="md:h-[300px] md:mx-auto md:w-[2500px] sm:h-[200px] sm:mx-auto sm:w-[1250px]" src='https://t3.ftcdn.net/jpg/04/40/29/94/360_F_440299419_s4b12RfNDJvpplheVDmKdhFGJiHlAYNs.jpg' />
             </section>
@@ -86,12 +86,12 @@ export default function Home() {
               </div>
             </section>
           </div>
-          <section className="bg-cover bg-center bg-stone-300 my-5 py-5 xl:h-96 my-8  text-black" >
+          <section className="bg-cover bg-[url('https://fast.image.delivery/swckajc.jpg')] bg-cover bg-center bg-center bg-stone-300 my-5 py-5 xl:h-96 my-8  text-black" >
             <div className="text-center">
               <h1 className="text-5xl font-bold mb-4">Client Success Stories</h1>
               <p className="text-lg">Discover How Artic Fox Consulting Delivered Results for Our Valued Clients</p>
             </div>
-            <section className="p-8 mb-10 bg-stone-300">
+            <section className="p-8 bg-[url('https://fast.image.delivery/swckajc.jpg')] bg-cover bg-center mb-10 bg-stone-300">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
                 <div className="border rounded-lg shadow-lg p-4">
                   <h3 className="text-xl text-gray-700 text-center font-bold mb-2">Highly recommended!</h3>
